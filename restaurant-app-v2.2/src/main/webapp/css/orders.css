@@ -1,0 +1,60 @@
+.orders {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.order__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 40px;
+  padding: 5px;
+  font-size: 1.8rem;
+  border-bottom: 1px solid #746f6f;
+}
+
+.order__quantity {
+  display: inline-block;
+  text-align: center;
+  width: 30px;
+}
+
+.order__button {
+  cursor: pointer;
+  border: none;
+  width: 30px;
+  padding: 5px 0;
+}
+
+.button_danger {
+  background-color: rgb(156, 130, 130);
+}
+
+.button_success {
+  background-color: rgb(72, 110, 92);
+}
+
+.confirm-button {
+  align-self: center;
+  width: 200px;
+  height: 34px;
+  cursor: pointer;
+  color: #eeeeee;
+  padding: 0;
+  background-color: black;
+  border: none;
+}
+
+.confirm-button:hover {
+  background-color: #746f6f;
+  border-color: #746f6f;
+}
+
+.confirm-button {
+  transition: all 0.3s ease-out;
+}
+
+.order__plus__name {
+  width: 200px;
+}
